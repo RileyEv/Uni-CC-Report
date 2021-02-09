@@ -1,0 +1,218 @@
+% This file was created by tikzplotlib v0.9.6.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+
+\begin{axis}[
+height=6cm,
+width=10cm,
+tick align=outside,
+tick pos=left,
+x grid style={white!69.0196078431373!black},
+xlabel={Seconds since start of test},
+xmin=0, xmax=9198,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={Number of messages},
+ymin=0, ymax=100,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 0
+60 0
+120 0
+180 0
+240 0
+300 0
+360 0
+420 3
+480 20
+540 33
+600 50
+660 58
+720 92
+780 92
+840 92
+900 92
+960 92
+1020 92
+1080 92
+1140 86
+1200 86
+1260 86
+1320 85
+1380 84
+1440 84
+1500 84
+1560 84
+1620 84
+1680 84
+1740 78
+1800 78
+1860 78
+1920 77
+1980 76
+2040 76
+2100 76
+2160 76
+2220 76
+2280 76
+2340 70
+2400 70
+2460 70
+2520 69
+2580 68
+2640 68
+2700 68
+2760 68
+2820 68
+2880 68
+2940 62
+3000 62
+3060 62
+3120 61
+3180 61
+3240 60
+3300 60
+3360 60
+3420 60
+3480 60
+3540 54
+3600 54
+3660 54
+3720 53
+3780 53
+3840 52
+3900 52
+3960 52
+4020 52
+4080 52
+4140 46
+4200 46
+4260 46
+4320 45
+4380 45
+4440 44
+4500 44
+4560 44
+4620 44
+4680 44
+4740 38
+4800 38
+4860 38
+4920 38
+4980 37
+5040 37
+5100 36
+5160 36
+5220 36
+5280 36
+5340 30
+5400 30
+5460 30
+5520 29
+5580 29
+5640 29
+5700 28
+5760 28
+5820 28
+5880 28
+5940 28
+6000 22
+6060 22
+6120 21
+6180 21
+6240 21
+6300 20
+6360 20
+6420 20
+6480 20
+6540 20
+6600 14
+6660 14
+6720 14
+6780 13
+6840 13
+6900 12
+6960 12
+7020 12
+7080 12
+7140 6
+7200 6
+7260 6
+7320 6
+7380 5
+7440 5
+7500 5
+7560 4
+7620 4
+7680 4
+7740 0
+7800 0
+7860 0
+7920 0
+7980 0
+8040 0
+8100 0
+8160 0
+8220 0
+8280 0
+8340 0
+};
+
+\end{axis}
+
+\begin{axis}[
+height=6cm,
+width=10cm,
+axis y line=right,
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=white!80!black},
+tick align=outside,
+x grid style={white!69.0196078431373!black},
+xmin=0, xmax=9198,
+xtick pos=left,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={Instances running},
+ymin=0, ymax=10,
+ytick pos=right,
+ytick style={color=black}
+]
+\addplot [semithick, red]
+table {%
+0 0
+482 0
+428 2
+435 2
+435 6
+443 6
+443 8
+7976 8
+7976 7 
+7977 6
+8180 6
+8180 5
+8344 5
+8344 4
+8570 4
+8570 3
+8752 3
+8752 2
+8753 2
+8753 1
+8760 1
+8760 0
+};
+\addlegendentry{Num. Instances}
+
+% Just to make it go on legend...
+\addplot [semithick, color0]
+table {%
+0 0
+};
+\addlegendentry{Num. Pending Messages}
+\end{axis}
+
+\end{tikzpicture}
